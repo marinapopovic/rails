@@ -66,6 +66,7 @@ npm_version = version.gsub(/\./).with_index { |s, i| i >= 2 ? "-" : s }
             p "marina was here"
           else
             raise "You must have npm installed to release Rails."
+            p "and here"
           end
         end
       end
